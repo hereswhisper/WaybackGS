@@ -1,5 +1,5 @@
 # Wayback GS
-A Gameserver for Fortnite Version 1.9.1
+A Gameserver for Fortnite Version 1.9.1 (credits to GD for STW *aka, me screenshotting his screenshare for fix*)
 # Features
 Fixed SDK
 <br>
