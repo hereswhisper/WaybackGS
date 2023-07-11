@@ -845,7 +845,7 @@ namespace Core {
 
 		GEngine->GameViewport->ViewportConsole = (UConsole*)GGameplayStatics->SpawnObject(UConsole::StaticClass(), GEngine->GameViewport);
 
-		GEngine->GameInstance->LocalPlayers[0]->PlayerController->SwitchLevel(L"Athena_Terrain?Game=/Game/Athena/Athena_GameMode.Athena_GameMode_C");
+		GEngine->GameInstance->LocalPlayers[0]->PlayerController->SwitchLevel(L"Zone_Onboarding_FarmsteadFort"); // Tutorial Map
 
 		uintptr_t ProcessEventAddr = (Base + Offsets::ProcessEvent);
 		CreateHook(ProcessEventAddr, ProcessEvent_Hk, (void**)&ProcessEventO);
